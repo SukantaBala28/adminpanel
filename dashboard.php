@@ -3,6 +3,7 @@
 
 <!-- Check Useremail is SET -->
 <?php if(isset($_SESSION['userEmail'])) { ?>
+	<?php require_once 'includes/adminNavbar.php'; ?>
 	<?php require_once 'includes/dashboardContent.php'; ?>
 <?php } else { ?>
 	<script type="text/javascript">
